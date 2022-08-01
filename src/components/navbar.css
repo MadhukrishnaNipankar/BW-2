@@ -1,0 +1,30 @@
+.nav-item{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.highlight{
+    height: 5px;
+    display: block;
+  }
+@media (max-width:768px) {
+    .huya{
+        padding-left: 16px;
+    }
+    .highlight{
+      height: 0px;
+      display: none;
+    }
+}
+
+@media (max-width:991.99px) {
+  .navbar-nav {
+    align-items: center;
+  }
+}

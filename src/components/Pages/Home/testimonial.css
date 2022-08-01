@@ -1,0 +1,41 @@
+.testimonial h1 {
+    margin-top: 141px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 25px;
+    color: #000000;
+}
+.testimonial  h3{
+    margin-top: 27px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 28px;
+/* or 54% */
+
+
+color: rgba(0, 0, 0, 0.9);
+}
+@media (max-width:768px) {
+    .testimonial h1 {
+        margin-top: 30px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000000;
+    }
+    .testimonial h3 {
+        margin-top: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+}

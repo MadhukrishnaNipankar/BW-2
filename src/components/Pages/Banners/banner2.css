@@ -1,0 +1,20 @@
+#subham .new-banner .cls2 {
+  position: absolute;
+  right: 46px;
+  top: 42px;
+  bottom: 83px;
+  height: 402px;
+}
+@media only screen and (max-width: 1024px) {
+  #subham .new-banner .cls2 {
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    height: 20rem;
+  }
+}
+@media only screen and (max-width: 991.99px) {
+  #subham .new-banner .cls2 {
+    display: none;
+  }
+}
